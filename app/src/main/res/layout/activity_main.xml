@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/hearts_resized"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To the Love of my Life"
+        android:textSize="30sp"
+        android:background="#B71C1C"
+        android:textColor="#FFEBEE"
+        android:textAlignment="center"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:fontFamily="casual"/>
+
+
+    <TextView
+        android:id="@+id/fromText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="From Miguel"
+        android:textSize="24sp"
+        android:paddingBottom="8dp"
+        android:textAlignment="center"
+        android:background="#B71C1C"
+        android:textColor="#FFCDD2"
+        android:fontFamily="casual"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fromText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#B71C1C"
+        android:paddingTop="8dp"
+        android:text="Happy Valentine's Day"
+        android:textAlignment="center"
+        android:textColor="#FFEBEE"
+        android:textSize="30sp"
+        android:fontFamily="casual" />
+
+</RelativeLayout>
